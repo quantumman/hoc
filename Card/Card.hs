@@ -5,6 +5,10 @@ data Card = FarmVillage
           | DaMaid
           | BurnAgriculture
 
+data Ability = Static
+             | Actiavte
+             | Trigger
+
 -- | Proxy type for types having kind named Card
 data Play (c :: Card) = Proxy
 
