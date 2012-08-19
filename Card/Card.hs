@@ -5,6 +5,9 @@ data Card = FarmVillage
           | DaMaid
           | BurnAgriculture
 
+-- | Proxy type for types having kind named Card
+data Play (c :: Card) = Proxy
+
 class Playable (c :: Card) where
     cost :: Play (c :: Card) -> Int
 
