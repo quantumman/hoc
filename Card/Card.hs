@@ -9,6 +9,11 @@ data Ability = Static
              | Actiavte
              | Trigger
 
+data CardType = Land
+              | Offense
+              | Deffense
+              | Succession
+
 -- | Proxy type for types having kind named Card
 data Play (c :: Card) = Proxy
 
