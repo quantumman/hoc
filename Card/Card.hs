@@ -14,6 +14,13 @@ data CardType = Land
               | Deffense
               | Succession
 
+data SubType = Maid
+             | Magic
+             | Military
+             | Scheme
+             | Merchant
+             | None
+
 -- | Proxy type for types having kind named Card
 data Play (c :: Card) = Proxy
 
