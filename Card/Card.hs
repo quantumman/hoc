@@ -1,4 +1,11 @@
 {-# LANGUAGE KindSignatures, DataKinds #-}
+module Card ( Card(..)
+            , Ability(..)
+            , CardType(..)
+            , SubType(..)
+            , Playable(..)
+            ) where
+
 
 -- | Card List
 data Card = FarmVillage
